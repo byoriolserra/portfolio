@@ -1,5 +1,9 @@
 /* UNIVERSAL */
 
+body {
+    background-color: rgb(226, 226, 216);
+}
+
 a {
     cursor: pointer;
 }
@@ -41,6 +45,37 @@ header h1 {
 
 /* ABOUT ME */
 
-article figure {
-    visibility: hidden;
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5rem;
 }
+
+article figure {
+    width: 50%;
+    height: auto;
+}
+
+article img {
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+}
+
+article div {
+    width: 50%;
+}
+
+article p {
+    font-family: stolzl, sans-serif;
+    font-style: normal;
+    font-size: 1.1rem;
+    text-align: justify;
+    width: 75%;
+    line-height: 2rem;
+}
+
+
+
