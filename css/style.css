@@ -7,7 +7,7 @@ a {
 /* NAV */
 
 nav {
-    padding: 1.3rem 0;
+    padding: 1.5rem 0;
     width: 100%;
 }
 
@@ -18,8 +18,8 @@ nav ul {
 }
 
 nav li {
-    margin: 0 1rem;
-    font-size: 1.3rem;
+    margin: 0 1.3rem;
+    font-size: 1.1rem;
     font-family: stolzl,sans-serif;
     font-weight: 700;
     font-style: normal;
