@@ -77,5 +77,25 @@ article p {
     line-height: 2rem;
 }
 
+/* FOOTER */
 
+footer {
+    padding: 1.5rem 0;
+    width: 100%;
+}
+
+footer ul {
+    justify-content: right;
+    list-style: none;
+    display: flex;
+    margin-right: 1.5rem;
+}
+
+footer li {
+    margin-right: 1.5rem;
+    font-size: 1.1rem;
+    font-family: stolzl,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 
