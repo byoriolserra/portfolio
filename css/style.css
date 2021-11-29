@@ -16,6 +16,10 @@ a {
 nav {
     padding: 1.5rem 0;
     width: 100%;
+    color: black;
+}
+
+#homepage-nav {
     color: white;
 }
 
