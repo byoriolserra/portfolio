@@ -11,11 +11,15 @@ a {
     cursor: pointer;
 }
 
-/* NAV */
+/* NAVS */
 
 nav {
     padding: 1.5rem 0;
     width: 100%;
+    color: black;
+}
+
+#homepage-nav {
     color: white;
 }
 
@@ -33,7 +37,7 @@ nav li {
 }
 
 
-/* HEADER */
+/* HOMEPAGE HEADER */
 
 
 header h1 {
@@ -50,7 +54,7 @@ header h1 {
 
 /* ABOUT ME */
 
-article {
+#about-me {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,14 +77,53 @@ article div {
     width: 50%;
 }
 
-article p {
+#about-me p {
     font-size: 1rem;
     text-align: left;
     width: 70%;
     line-height: 2rem;
 }
 
-/* FOOTER */
+/* ART */
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 2.5rem 0;
+}
+
+.art-container {
+    margin: 4rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.art-img {
+    width: 23rem;
+    height: auto;
+}
+
+figcaption {
+    font-size: 1rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#work-together {
+    margin: 8rem 0;
+    width: 100%;
+    text-align: center;
+}
+
+#work-together p {
+    margin: auto;
+}
+
+/* FOOTERS */
 
 footer {
     padding: 1.5rem 0;
