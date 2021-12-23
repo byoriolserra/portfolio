@@ -98,23 +98,28 @@ h2 {
 }
 
 .art-container {
-    margin: 4rem auto;
+    margin: 4rem auto 9rem auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 90%;
+    text-align: center;
 }
 
-.art-img {
-    width: 23rem;
-    height: auto;
+.art-img img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5%;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 20%);
+    object-fit: cover;
+    margin: 0 auto;
 }
 
 figcaption {
     font-size: 1rem;
     text-align: center;
-    margin: 1rem 0;
+    margin: 1rem auto;
 }
 
 #work-together {
@@ -125,6 +130,11 @@ figcaption {
 
 #work-together p {
     margin: auto;
+}
+
+#work-together a{
+    text-decoration: underline;
+    font-weight: 600;
 }
 
 /* FOOTERS */
