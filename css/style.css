@@ -97,7 +97,7 @@ h2 {
     padding: 2.5rem 0;
 }
 
-.art-container {
+.content-container {
     margin: 4rem auto 9rem auto;
     display: flex;
     flex-wrap: wrap;
@@ -136,6 +136,19 @@ figcaption {
     text-decoration: underline;
     font-weight: 600;
 }
+
+/* CODE */
+
+.code-img img{
+    width: 23rem;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 20%);
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+
 
 /* FOOTERS */
 
